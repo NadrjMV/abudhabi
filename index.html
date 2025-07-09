@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu Dhabi Lounge Hookah - Itajubá</title>
+    <meta name="description" content="A melhor experiência em narguilé de Itajubá e região. Ambiente premium, drinks exclusivos e as melhores essências.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (Ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <!-- Seu CSS (link para o arquivo style.css) -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <svg style="position:absolute; width:0; height:0;">
+        <filter id="smokeFilter">
+            <feTurbulence 
+                type="fractalNoise" 
+                baseFrequency="0.012 0.015" 
+                numOctaves="3" 
+                seed="0" />
+            <feDisplacementMap in="SourceGraphic" scale="50" />
+        </filter>
+    </svg>
+
+    <!-- CABEÇALHO E NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">
+                <img src="https://i.postimg.cc/hjmth463/491498873-617011828026950-712778718672099213-n-removebg-preview.png" alt="Logo Abu Dhabi">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                <li class="nav-item"><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                <li class="nav-item"><a href="#ambiente" class="nav-link">Nosso Espaço</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <!-- Link do WhatsApp para reservas -->
+            <a href="https://instagram.com/abudhabi_lh" target="_blank" class="btn-reservar">Reservar</a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SEÇÃO INICIAL (HERO) -->
+        <section id="home" class="hero">
+            <video class="hero-video" src="videos/smoke.mp4" autoplay muted loop playsinline></video>
+            <div class="hero-content-wrapper">
+                <div class="hero-content">
+                    <h1 class="hero-title">Abu Dhabi Lounge Hookah</h1>
+                    <p class="hero-subtitle">Sua nova experiência premium em Itajubá.</p>
+                    <a href="#cardapio" class="btn-primary">Ver Cardápio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE NÓS -->
+        <section id="sobre" class="section-container">
+            <div class="section-content">
+                <h2 class="section-title">O Ponto de Encontro</h2>
+                <p>Nascemos do desejo de criar um ambiente único em Itajubá. A Abu Dhabi Lounge Hookah não é apenas uma tabacaria, é um refúgio. Combinamos um espaço aconchegante e sofisticado com as melhores sessões de narguilé e drinks exclusivos para você criar novas memórias.</p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CARDÁPIO -->
+        <section id="cardapio" class="section-container dark-bg">
+            <div class="section-content">
+                <h2 class="section-title">Nosso Cardápio</h2>
+                <div class="menu-grid">
+                    <!-- Categoria Narguilé -->
+                    <div class="menu-category">
+                        <h3 class="menu-title">Sessões de Narguilé</h3>
+                        <ul>
+                            <li><span>Essências Clássicas (Zomo, Adalya)</span><span>R$ --</span></li>
+                            <li><span>Essências Premium (Tangiers, Darkside)</span><span>R$ --</span></li>
+                            <li><span>Mix da Casa Abu Dhabi</span><span>R$ --</span></li>
+                            <li><span>Sessão com Rosh de Fruta</span><span>R$ --</span></li>
+                        </ul>
+                    </div>
+                    <!-- Categoria Bebidas -->
+                    <div class="menu-category">
+                        <h3 class="menu-title">Drinks & Copões</h3>
+                        <ul>
+                            <li><span>Copão Gin Tônica (Sabores)</span><span>R$ --</span></li>
+                            <li><span>Copão TCHAY (Exclusividade)</span><span>R$ --</span></li>
+                            <li><span>Copão Whisky + Energético</span><span>R$ --</span></li>
+                            <li><span>Cervejas (Long Neck)</span><span>R$ --</span></li>
+                            <li><span>Refrigerantes e Sucos</span><span>R$ --</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO AMBIENTE / GALERIA -->
+        <section id="ambiente" class="section-container">
+            <h2 class="section-title">Nosso Espaço</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://i.postimg.cc/j2Z16PJg/asdn.jpg" alt="Ambiente interno do lounge"></div>
+                <div class="gallery-item"><img src="https://i.postimg.cc/GmYQdvhW/sfasdf.jpg" alt="Detalhe de um narguilé roxo"></div>
+                <div class="gallery-item"><img src="https://i.postimg.cc/ry3YS1sH/fg.jpg" alt="Copo personalizado da Abu Dhabi"></div>
+                <div class="gallery-item"><img src="https://i.postimg.cc/dVKHfJ8m/fdg.jpg" alt="Grafite na parede com o logo"></div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO E LOCALIZAÇÃO -->
+        <section id="contato" class="section-container dark-bg">
+            <div class="section-content">
+                <h2 class="section-title">Faça sua Reserva</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3><i class="fas fa-clock"></i> Horário de Funcionamento</h3>
+                        <p>Quarta e Quinta: 18:00 - 02:00</p>
+                        <p>Sexta e Sábado: 18:00 - 04:00</p>
+                        <p>Domingo: 16:00 - 00:00</p>
+                        <p>(Depois mudamos informações, se estiverem erradas.)</p>
+
+                        <br>
+                        <h3><i class="fas fa-map-marker-alt"></i> Endereço</h3>
+                        <p>Rua Dr. Manoel Cintra Barbosa Lima, 19 - Varginha, Itajubá - MG</p>
+                        <br>
+                        <h3><i class="fab fa-whatsapp"></i> Contato</h3>
+                        <p>(35) 90000-0000</p>
+                        <p>(Adicionaremos depois)</p>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.087208144665!2d-45.45430872500888!3d-22.42574322085575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb7cacfb80c3b9%3A0x16539988b2745bf3!2sR.%20Dr.%20Manoel%20Cintra%20Barbosa%20Lima%2C%2019%20-%20Varginha%2C%20Itajub%C3%A1%20-%20MG%2C%2037501-050!5e0!3m2!1spt-BR!2sbr!4v1752063432615!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Abu Dhabi Lounge Hookah. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/abudhabi_lh/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/553500000000" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <p class="feito-por">
+                    <span>Desenvolvido por</span>
+                    <a href="https://www.instagram.com/jordanlvs" target="_blank" class="assinatura-link">
+                        <span class="assinatura">@jordanlvs</span>
+                        <i class="fas fa-check-circle verified"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
